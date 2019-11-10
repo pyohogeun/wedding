@@ -1,0 +1,34 @@
+{
+  "name": "wedding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:pyohogeun/wedding.git",
+  "author": "pyo <pyohogeun@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react-app": "^9.0.2",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.5.1",
+    "firebase": "6.3.4",
+    "firebase-tools": "^7.5.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-router-dom": "^5.1.2",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development webpack-dev-server",
+    "build": "NODE_ENV=production webpack -p"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3"
+  }
+}
